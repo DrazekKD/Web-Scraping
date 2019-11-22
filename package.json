@@ -4,15 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node src/index.js",
+    "start": "nodemon --exec babel-node src/scraper.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
-    "nodemon": "^2.0.0"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.0",
+    "puppeteer": "^2.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
